@@ -14,7 +14,7 @@ public class Main {
 	    float zarichardAttack = 25f;
 	    float zarichardDefense = 12.5f;
 	    float zarichardHP = 200f;
-
+		//createbattle object
 	    Battle battle = new Battle(chikapuName, chikapuAttack, chikapuDefense, chikapuHP,
 	                               zarichardName, zarichardAttack, zarichardDefense, zarichardHP);
 
