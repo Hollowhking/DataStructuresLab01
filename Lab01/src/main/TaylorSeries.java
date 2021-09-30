@@ -3,8 +3,8 @@ package main;
 public class TaylorSeries {
 	public static double approximateExp(int i, int n) {
 		double x = 0;
-		for (int liam=0;liam<n;liam++) {
-			x= x+ (pow(i,liam)/factorial(liam));
+		for (int j=0;j<n;j++) {
+			x= x+ (pow(i,j)/factorial(j));
 		    //System.out.println(pow(i,liam)+"   "+factorial(liam));
 		}
 		return x;
