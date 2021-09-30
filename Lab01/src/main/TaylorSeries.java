@@ -1,12 +1,11 @@
 package main;
 
 public class TaylorSeries {
-	static double x;
 	public static double approximateExp(int i, int n) {
-		int Count=0;
-		while (Count<=n) {
-			x= x+ (pow(i,Count)/factorial(Count));
-			Count++;
+		double x = 0;
+		for (int liam=0;liam<n;liam++) {
+			x= x+ (pow(i,liam)/factorial(liam));
+		    //System.out.println(pow(i,liam)+"   "+factorial(liam));
 		}
 		return x;
 	}
